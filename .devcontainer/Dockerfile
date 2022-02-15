@@ -16,6 +16,7 @@ RUN opam update && \
   ocamlformat \
   ounit2 \
   qcheck \
+  merlin \
   ocamlformat-rpc
 
 # Switch back to dialog for any ad-hoc use of apt-get
